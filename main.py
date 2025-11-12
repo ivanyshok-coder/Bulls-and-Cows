@@ -4,6 +4,8 @@ digits = list("0123456789")
 random.shuffle(digits)
 rand = ''.join(digits[:4])
 
+print('*** Загадано число', rand, '***') # Узнаём загаданное число для тестирования программы
+
 count = 1
 number = input('Введите 4-значное число: ')
 
@@ -23,4 +25,5 @@ while number != rand:
 
 print('Вы угадали число!')
 print('Количество потраченных попыток:', count)
+
 
