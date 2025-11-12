@@ -17,8 +17,7 @@
 🚀 Быстрый старт
 bash
 # Скачайте файлы игры
-git clone https://github.com/Arsemon/Game-cows-and-bulls
-cd Game-cows-and-bulls
+https://github.com/ivanyshok-coder/Bulls-and-Cows
 
 # Дайте права на выполнение
 chmod +x game.sh
