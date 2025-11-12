@@ -17,7 +17,7 @@ while number != rand:
         elif number[i] in rand:
             cows += 1
 
-    print(f'Быков: {bulls}, Коров: {cows}')
     count += 1
     number = input('Попробуйте ещё раз: ')
+
 
