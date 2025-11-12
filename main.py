@@ -2,7 +2,9 @@ import random
 
 digits = list("0123456789")
 random.shuffle(digits)
-rand = ''.join(digits[:4])
+rand = ""
+for i in range(4):
+    rand = rand + digits[i]
 
 print('*** Загадано число', rand, '***') # Узнаём загаданное число для тестирования программы
 
@@ -25,5 +27,6 @@ while number != rand:
 
 print('Вы угадали число!')
 print('Количество потраченных попыток:', count)
+
 
 
