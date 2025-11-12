@@ -21,3 +21,6 @@ while number != rand:
     count += 1
     number = input('Попробуйте ещё раз: ')
 
+print('Вы угадали число!')
+print('Количество потраченных попыток:', count)
+
