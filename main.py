@@ -2,7 +2,9 @@ import random
 
 digits = list("0123456789")
 random.shuffle(digits)
-rand = ''.join(digits[:4])
+rand = ""
+for i in range(4):
+    rand = rand + digits[i]
 
 count = 1
 number = input('Введите 4-значное число: ')
@@ -19,5 +21,6 @@ while number != rand:
 
     count += 1
     number = input('Попробуйте ещё раз: ')
+
 
 
